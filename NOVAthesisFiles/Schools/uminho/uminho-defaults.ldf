@@ -83,12 +83,12 @@
 
 \doctype(pt,msc):={Dissertação de Mestrado}
 \doctype(pt,mscplan):={Plano de Dissertação de Mestrado}
-\doctype(en,msc):={Master Thesis}
+\doctype(en,msc):={Master’s Dissertation in Informatics Engineering}
 \doctype(en,mscplan):={Master Thesis Plan}
 
 \newdata{advisersrt}
 \advisersrt(pt):={Trabalho efetuado sob a orientação de:}
-\advisersrt(en):={Work developed under the supervision of:}
+\advisersrt(en):={Dissertation supervised by}
 
 \newdata{placestr}
 \placestr(pt):={Local}
