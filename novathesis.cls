@@ -2692,7 +2692,7 @@
 \cs_new:cpn {ntquote} {\ntquoting*}
 \cs_new_eq:cN {endntquote} \endntquoting
 \cs_new:cpn {ntdedicatory} {\ntquoting}
-\cs_new_eq:cN {endntdedicatory} \endntquoting
+\cs_new_eq:cN {endntdedicatory} \endntquotingf
 \ExplSyntaxOff
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
