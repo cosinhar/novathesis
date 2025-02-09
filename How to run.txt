@@ -1,0 +1,13 @@
+Primeiro é precido dar run no vscode,  vai aparecer tudo menos a list of contents
+
+depois é preciso dar run no TexStudio e já aparece a list of contents direito
+
+----------------------------------------------------------------------------------
+
+Atualizar citações
+
+correr o comando - biber template 
+(vai atualizar o file template.bbl)
+
+depois dar build no vscode e logo em seguida dar build no TexStudio 
+(as vezes pode ser preciso dar build 2 ou 3x no Tex visto que na primeira adiciona so as referencias deixando tudo a 0 e na segunda atribui os números direitos)

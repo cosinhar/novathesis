@@ -27,7 +27,7 @@
 % File with the dedicatory text. Will only be considered for final documents,
 %   i.e., "bsc", "msc" and "phd", otherwise, it will be silently ignored
 %   syntax: \ntaddfile{dedicatory}{filename}
-\ntaddfile{dedicatory}{dedicatory}
+% \ntaddfile{dedicatory}{dedicatory}
 
 %%------------------------------------------------------------
 % File with the acknowledgments text. Will only be considered for final documents,
@@ -39,7 +39,7 @@
 % File with the quote text. Will only be considered for final documents,
 %   i.e., "bsc", "msc" and "phd", otherwise, it will be silently ignored
 %   syntax: \ntaddfile{quote}{filename}
-\ntaddfile{quote}{quote}
+% \ntaddfile{quote}{quote}
 
 %%------------------------------------------------------------
 % Abstract files in multiple languages
@@ -56,9 +56,9 @@
 %%------------------------------------------------------------
 % Lists of Glossary, Acronyms and Symbols
 %   syntax: \ntaddfile{glossaries}[list-type]{filename}
-\ntaddfile{glossaries}[glossary]{glossary}
-\ntaddfile{glossaries}[acronym]{acronyms}
-\ntaddfile{glossaries}[symbols]{symbols}
+% \ntaddfile{glossaries}[glossary]{glossary}
+% \ntaddfile{glossaries}[acronym]{acronyms}
+% \ntaddfile{glossaries}[symbols]{symbols}
 % \ntaddfile{glossaries}[symbols]{chemical}
 
 %%------------------------------------------------------------
@@ -68,22 +68,27 @@
 %   examples:  \ntaddfile{chapter}{my-chapter} % for all documents
 %              \ntaddfile{chapter}[phdplan]{my-chapter} % just for phd documents
 %              \ntaddfile{chapter}[phd,phdplan]{my-chapter} % just both phd and phdplan documents
-\ntaddfile{chapter}{chapter1}
-\ntaddfile{chapter}{chapter2}
-\ntaddfile{chapter}{chapter3}
-\ntaddfile{chapter}{chapter4}
+% \ntaddfile{chapter}{chapter1}
+% \ntaddfile{chapter}{chapter2}
+% \ntaddfile{chapter}{chapter3}
+% \ntaddfile{chapter}{chapter4}
 % \ntaddfile{chapter}{chapter-last}
+\ntaddfile{chapter}{chapterIntroduction}
+\ntaddfile{chapter}{chapterStateOfTheArt}
+\ntaddfile{chapter}{chapterRiskAssessmentTools}
+\ntaddfile{chapter}{chapterNextSteps}
+
 
 %%------------------------------------------------------------
 % Text appendices
 % syntax: \ntaddfile{appendix}{filename}
-\ntaddfile{appendix}{appendix1}
-\ntaddfile{appendix}{appendix2}
+% \ntaddfile{appendix}{appendix1}
+% \ntaddfile{appendix}{appendix2}
 
 %%------------------------------------------------------------
 % Text annexes
 % syntax: \ntaddfile{annex}{filename}
-\ntaddfile{annex}{annex1}
+% \ntaddfile{annex}{annex1}
 % \ntaddfile{annex}{annex2}
 % \ntaddfile{annex}{annex2}
 
